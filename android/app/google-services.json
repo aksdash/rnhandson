@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "323779227782",
+    "project_id": "rnhandson-e5afc",
+    "storage_bucket": "rnhandson-e5afc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323779227782:android:ad0499f138c4cc3c562107",
+        "android_client_info": {
+          "package_name": "com.aki.rnhandson"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjLLTMKEk-1lVwLDMEcoZMrAcJTWVq8BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
