@@ -25,4 +25,15 @@ messaging().onMessage(async remoteMessage => {
     Alert.alert('A new FCM message arrived!', JSON.stringify(remoteMessage));
 })
 
+messaging().onNotificationOpenedApp(remoteMessage => {
+    console.log('Notification caused app to open from background state:', remoteMessage.notification);
+});
+
+// Handle notifications opened when the app is in the quit state
+messaging().getInitialNotification().then(remoteMessage => {
+    if (remoteMessage) {
+        console.log('Notification caused app to open from quit state:', remoteMessage.notification);
+    }
+});
+
 export {requestUserPermission, getToken}
